@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RSA</string>
+    <string name="je_suis_une_application_de_rsa">Bienvenu!\nje suis une application qui fait de la cryptographie RSA!</string>
+    <string name="quelle_op_ration_souhaitez_vous_faire">Quelle opération souhaitez vous faire ?</string>
+    <string name="g_n_ration_de_cl">Génération de clés</string>
+    <string name="dechiffrement">DECHIFFREMENT</string>
+    <string name="chiffrement">CHIFFREMENT</string>
+    <string name="todo">TODO</string>
+    <string name="entrer_le_message_chiffrer">Entrer le message à chiffrer :</string>
+    <string name="chiffrer_le_message">CHIFFRER LE MESSAGE</string>
+    <string name="message_chiffrer">message à chiffrer</string>
+    <string name="entrer_le_message_d_chiffrer">Entrer le message à déchiffrer :</string>
+    <string name="message_d_chiffrer">message à déchiffrer</string>
+    <string name="d_chiffrer_le_message">déchiffrer le message</string>
+    <string name="la_g_n_ration_de_cl_s_rsa_est_bas_sur_deux_nombres_premiers_t_donc_entrer_d_abord_2_nombres_premiers">la génération de clés RSA est basé sur deux nombres premiers\nDonc entrer d\'abord 2 nombres premiers</string>
+    <string name="ensuite_un_nombre_premier_avec_le_produit_de_ces_2_nombres_moins_uns_est_n_cessaire_pour_cr_er_le_cl_priv_t_entrer_un_nombre_premier_entrer_eux_avec">ensuite un nombre premier avec le produit de ces 2 nombres moins uns est nécessaire pour créer la clé publique\nEntrer un nombre premier entrer eux avec</string>
+    <string name="le_reste_est_g_n_rer_automatiquement">le reste est généré automatiquement</string>
+    <string name="g_n_rer_les_cl_s">Générer
+er les clés</string>
+    <string name="e">e</string>
+    <string name="p">p</string>
+    <string name="q">q</string>df
+    <string name="vous_avez_besoin_des_cl_s_de_chiffrement_cl_priv_pour_chiffrer_le_message_n_veulliez_les_entrer">vous avez besoin des clés de chiffrement(clé public) pour chiffrer le message\nVeulliez les entrer :</string>
+    <string name="n">n</string>
+    <string name="inv">inv</string>
+    <string name="vous_avez_besoin_des_cl_s_de_d_chiffrement_cl_priv_pour_d_chiffrer_le_message_n_veulliez_les_entrer">vous avez besoin des clés de déchiffrement(clé privée) pour déchiffrer le message\nVeulliez les entrer :</string>
+    <string name="suivant">SUIVANT</string>
+    <string name="texte" >
+
+
+</string>
+    <string name="textview">TextView</string>
+
+</resources>

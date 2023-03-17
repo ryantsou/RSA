@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Bienvenu!"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Je suis une application qui fait de la cryptographie RSA(Rivest Shamir Adleman).\n
+Le système de chiffrement RSA a été inventé par trois mathématiciens : Ron Rivest, Adi Shamir et Len Adleman, en 1977.\n
+Le système RSA est un système de crytographie asymétrique c\'est système utilisant deux clés. Une pour chiffrer et une autre pour déchiffrer. On appelle clé publique la clé servant à
+chiffrer et clé privée la clé servant à déchiffrer.\n\n
+Cette application est une réalisation de ce système, elle propose 3 menus de fonctionnement, une option pour chiffrer un message, une pour déchiffrer et
+une dernière pour générer des clés afin de pouvoir les utilisés pour accomplir les 2 autres options.\n\n
+L\'application est donc utilisable pour confidentialiser une information important et de la partager avec une destinataire spécifique
+\nMais attention le décryptage de l\'information est réelement faisable par tout ordinateur et une personne qui a des connaissance en MATH et en sur le système de RSA.
+Pour palier cette contrainte on vous recommande d\'utiliser des clés à des grandes valeurs ce qui complique le décryptage.
+Généralement les clés de système RSA s'opèrent avec des clés de valeur de 255 bits car effet à cette valeur il est presque impossible et demande une durrée de temps élévé
+pour décrypter une message chiffrer. Mais comme nous l'application fonctionne sous un téléphone qui n\'ont pas
+performance pour traiter cette grande unité de nombre, on vous donne la limite de plus nombre que la clés RSA que l\'application
+supporte qui est de l'orde de 64 bits.\n\n
+Remarque : pour chiffrer les caractères spéciaux et les lettres avec des accents et signes spécifiques l\'appication necessite
+des clés de valeurs de supérieurs on vous recommande des valeurs contenant une centaine.\n\n
+"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Le développeur "
+            android:textAlignment="textEnd"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>
