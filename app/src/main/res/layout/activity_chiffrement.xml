@@ -1,1 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".Chiffrement">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45sp"
+        android:text="@string/entrer_le_message_chiffrer"
+        android:textAlignment="center"
+        android:textSize="34sp" />
 
+    <EditText
+        android:id="@+id/messageBrute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="25sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/message_chiffrer"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="25sp"
+        android:text="@string/vous_avez_besoin_des_cl_s_de_chiffrement_cl_priv_pour_chiffrer_le_message_n_veulliez_les_entrer"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/e_chif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="#070707"
+            android:ems="10"
+            android:hint="@string/e"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#F8F3F3"
+            android:textColorHint="#F4EBEB"
+            android:textSize="34sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/n_chif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="#070707"
+            android:ems="10"
+            android:hint="@string/n"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#F8F3F3"
+            android:textColorHint="#F4EBEB"
+            android:textSize="34sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/chiffrer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15sp"
+        android:text="@string/chiffrer_le_message"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/messageChiffré"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textMultiLine|number"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+</LinearLayout>
