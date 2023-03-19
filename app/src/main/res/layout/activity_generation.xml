@@ -1,1 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".Generation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:text="@string/la_g_n_ration_de_cl_s_rsa_est_bas_sur_deux_nombres_premiers_t_donc_entrer_d_abord_2_nombres_premiers"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/p_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="#070707"
+                android:ems="10"
+                android:hint="@string/p"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#F8F3F3"
+                android:textColorHint="#F4EBEB"
+                android:textSize="34sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/q_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="#070707"
+                android:ems="10"
+                android:hint="@string/q"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#F8F3F3"
+                android:textColorHint="#F4EBEB"
+                android:textSize="34sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/suivant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="@string/suivant"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/gen_e"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:text="@string/ensuite_un_nombre_premier_avec_le_produit_de_ces_2_nombres_moins_uns_est_n_cessaire_pour_cr_er_le_cl_priv_t_entrer_un_nombre_premier_entrer_eux_avec"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/e_gen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:autofillHints=""
+            android:background="#070707"
+            android:ems="10"
+            android:hint="@string/e"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#F8F3F3"
+            android:textColorHint="#F4EBEB"
+            android:textSize="34sp"
+            android:visibility="invisible"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:text="@string/le_reste_est_g_n_rer_automatiquement"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/générer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:text="@string/g_n_rer_les_cl_s"
+            android:textColor="#F6F5F5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/affichage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:visibility="gone" />
+    </LinearLayout >
+
+
+
+
+</ScrollView>
 
