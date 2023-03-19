@@ -22,7 +22,7 @@ Comment utiliser l'application :
 
 Nous espérons que RSA vous aidera à sécuriser votre information avant son envoie.
 
-
+le dossier illustration contient les capture d'ecrant via android 11 de l'applivation
 développé par : 
 RAJHONSON Sedra Riantsoa Lala  
 FANASINARIMINO Nirhy Andriantsoa  
