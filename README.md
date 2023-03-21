@@ -22,11 +22,11 @@ Comment utiliser l'application :
 
 Nous espérons que RSA vous aidera à sécuriser votre information avant son envoie.
 
-le dossier illustration contient les capture d'ecrant via android 11 de l'applivation
+le dossier "illustration" contient les captures d'écran via android 11 de l'application
 
 
-développé par : 
-RAJHONSON Sedra Riantsoa Lala  
-FANASINARIMINO Nirhy Andriantsoa  
+développés par : 
 ANDRIANOMANANA Nomenjanahary Radoniaina 
+FANASINARIMINO Nirhy Andriantsoa
+RAJHONSON Sedra Riantsoa Lala 
 (TCO M1 IRS)
